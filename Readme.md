@@ -18,15 +18,15 @@ const REAL_SHIT = [1, 2, 3, 4];
 
 const [shit] = useShit(REAL_SHIT); // shit === REAL_SHIT
 ```
-## Example
+## Example 1
 ```tsx
-import React from 'react';
 import { useShit } from 'use-shit';
 
 const REAL_SHIT = [1, 2, 3, 4];
 
-export function App() {
-  const [shit] = useShit(REAL_SHIT);
+function Component() {
+  - const shit = REAL_SHIT; // ❌ It's ugly
+  + const [shit] = useShit(REAL_SHIT); // ✅ Nice and smooth
 
   return (
     <>
@@ -41,8 +41,27 @@ export function App() {
 }
 ```
 
-If you are thinking why not just use the `REAL_SHIT`, you are not a true hook based developer. Althorugh `REAL_SHIT` is equal to `shit`, but it's always nice to have some unnessesury `useShit` in body of components.
+## Example #2
+```tsx
+import { useShit } from 'use-shit';
 
+function Component() {
+  const [num1, setNum1] = useState(0);
+  const [num2, setNum2] = useState(0);
+
+  - const sum = num1 + num2; // ❌ It doesn't look good
+  - const sum = useMemo(() => num1 + num2, [num1, num2]); // ❌ Unnessesury use of cache
+  + const [sum] = useShit(num1 + num2); // ✅ Nice and feels right
+
+  return (
+    <>
+      <input type="number" onChange={(e) => setNum1(e.target.valueAsNumber)} />
+      <input type="number" onChange={(e) => setNum2(e.target.valueAsNumber)} />
+      <b>{sum}</b>
+    </>
+  );
+}
+```
 
 ## License
 
