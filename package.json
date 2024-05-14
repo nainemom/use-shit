@@ -8,7 +8,7 @@
     "build": "mkdist --declaration",
     "dev": "vitest",
     "test": "vitest --run",
-    "release": "npm run test && npm run build && changelogen --release && npm publish && git push --follow-tags"
+    "release": "npm run test && npm run build && changelogen --release && npm publish && git push origin main --follow-tags"
   },
   "repository": {
     "type": "git",
