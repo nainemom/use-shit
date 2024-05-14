@@ -2,9 +2,10 @@
   "name": "use-shit",
   "version": "0.0.1",
   "description": "The best use-hook ever made.",
-  "main": "src/index.ts",
+  "type": "module",
+  "main": "dist/index.mjs",
   "scripts": {
-    "build": "tsc",
+    "build": "mkdist --declaration",
     "dev": "vitest",
     "test": "vitest --run"
   },
@@ -25,6 +26,7 @@
   },
   "homepage": "https://github.com/nainemom/use-shit#readme",
   "devDependencies": {
+    "mkdist": "^1.5.1",
     "typescript": "^5.4.5",
     "vitest": "^1.6.0"
   }
