@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v0.0.5
+
+[compare changes](https://github.com/nainemom/use-shit/compare/v0.0.4...v0.0.5)
+
+### 🏡 Chore
+
+- Add npmignore file ([9b19004](https://github.com/nainemom/use-shit/commit/9b19004))
+- Update readme ([f33b467](https://github.com/nainemom/use-shit/commit/f33b467))
+
+### ❤️ Contributors
+
+- Amir Momenian <nainemom@gmail.com>
+
 ## v0.0.4
 
 [compare changes](https://github.com/nainemom/use-shit/compare/v0.0.3...v0.0.4)
