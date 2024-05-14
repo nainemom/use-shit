@@ -1,0 +1,25 @@
+{
+  "name": "use-shit",
+  "version": "0.0.1",
+  "description": "The best use-hook ever made.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nainemom/use-shit.git"
+  },
+  "keywords": [
+    "use",
+    "hooks",
+    "react",
+    "vue"
+  ],
+  "author": "Amir Momenian <nainemom@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nainemom/use-shit/issues"
+  },
+  "homepage": "https://github.com/nainemom/use-shit#readme"
+}
