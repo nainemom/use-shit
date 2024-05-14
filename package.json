@@ -1,0 +1,35 @@
+{
+  "name": "use-shit",
+  "version": "0.0.0",
+  "description": "The best use-hook ever made.",
+  "type": "module",
+  "main": "dist/index.mjs",
+  "scripts": {
+    "build": "mkdist --declaration",
+    "dev": "vitest",
+    "test": "vitest --run",
+    "release": "npm run test && npm run build && changelogen --release && npm publish && git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nainemom/use-shit.git"
+  },
+  "keywords": [
+    "use",
+    "hooks",
+    "react",
+    "vue"
+  ],
+  "author": "Amir Momenian <nainemom@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nainemom/use-shit/issues"
+  },
+  "homepage": "https://github.com/nainemom/use-shit#readme",
+  "devDependencies": {
+    "changelogen": "^0.5.5",
+    "mkdist": "^1.5.1",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}
