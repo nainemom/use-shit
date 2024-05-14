@@ -1,6 +1,22 @@
 # Changelog
 
 
+## v0.0.3
+
+[compare changes](https://github.com/nainemom/use-shit/compare/v0.0.2...v0.0.3)
+
+### 🩹 Fixes
+
+- Npm relase script ([e65cd51](https://github.com/nainemom/use-shit/commit/e65cd51))
+
+### 🏡 Chore
+
+- Update readme ([9eabcd6](https://github.com/nainemom/use-shit/commit/9eabcd6))
+
+### ❤️ Contributors
+
+- Amir Momenian <nainemom@gmail.com>
+
 ## v0.0.2
 
 [compare changes](https://github.com/nainemom/use-shit/compare/v0.0.1...v0.0.2)
