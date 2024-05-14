@@ -7,7 +7,8 @@
   "scripts": {
     "build": "mkdist --declaration",
     "dev": "vitest",
-    "test": "vitest --run"
+    "test": "vitest --run",
+    "release": "npm run test && npm run build && changelogen --release && npm publish && git push --follow-tags"
   },
   "repository": {
     "type": "git",
@@ -26,6 +27,7 @@
   },
   "homepage": "https://github.com/nainemom/use-shit#readme",
   "devDependencies": {
+    "changelogen": "^0.5.5",
     "mkdist": "^1.5.1",
     "typescript": "^5.4.5",
     "vitest": "^1.6.0"
