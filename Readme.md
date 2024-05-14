@@ -1,7 +1,7 @@
 # use-shit
 
-[![npm version][npm-version-src]][npm-version-href]
-[![npm downloads][npm-downloads-src]][npm-downloads-href]
+![NPM License](https://img.shields.io/npm/l/use-shit)
+![npm bundle size](https://img.shields.io/bundlephobia/minzip/use-shit)
 
 > The best use-hook ever made.
 
@@ -49,3 +49,7 @@ If you are thinking why not just use the `REAL_SHIT`, you are not a true hook ba
 ## License
 
 [MIT](./LICENSE)
+
+---
+
+![Static Badge](https://img.shields.io/badge/don't-use_shit-green)
