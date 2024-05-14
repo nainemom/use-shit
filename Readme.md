@@ -5,8 +5,6 @@
 
 > The best use-hook ever made.
 
-Use-shit is not just a tool. It is the best idea ever made
-
 ## Installation:
 
 ```bash
