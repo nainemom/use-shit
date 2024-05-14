@@ -1,6 +1,6 @@
 {
   "name": "use-shit",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "The best use-hook ever made.",
   "type": "module",
   "main": "dist/index.mjs",

@@ -1,6 +1,18 @@
 # Changelog
 
 
+## v0.0.4
+
+[compare changes](https://github.com/nainemom/use-shit/compare/v0.0.3...v0.0.4)
+
+### 🏡 Chore
+
+- Update readme ([5e5d481](https://github.com/nainemom/use-shit/commit/5e5d481))
+
+### ❤️ Contributors
+
+- Amir Momenian <nainemom@gmail.com>
+
 ## v0.0.3
 
 [compare changes](https://github.com/nainemom/use-shit/compare/v0.0.2...v0.0.3)
